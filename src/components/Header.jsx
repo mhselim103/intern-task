@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./Hero";
+import Hero from "../sections/Hero";
 /* https://i.ibb.co/bQQL41P/Group-26.png
 https://i.ibb.co/7WWGKLC/Group-27.png
 https://i.ibb.co/HPThG3b/Group-377.png

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSlider from "./HeroSlider";
+import HeroSlider from "../components/HeroSlider";
 // import banner from "../assets/Banner-1-1024x576.png"
 const Hero = () => {
   return (
@@ -18,7 +18,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <HeroSlider />
+      <div>
+        <HeroSlider />
+      </div>
     </div>
   );
 };

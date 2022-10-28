@@ -1,0 +1,7 @@
+.easy {
+  background-image: url(./assets/hero-shape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
