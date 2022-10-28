@@ -5,3 +5,34 @@
   background-size: cover;
   object-fit: cover;
 }
+.rectangle {
+  background-image: url(./assets/rectangular.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  object-fit: cover;
+  width: 300px;
+  margin: auto;
+}
+.btn {
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  width: 136px;
+  /* height: auto; */
+  cursor: pointer;
+  /* padding: 5px; */
+  /* margin: 8px; */
+}
+.btn-fill {
+  background-image: url(./assets/buttonbg.svg);
+}
+.btn-outline {
+  background-image: url(./assets/outline-btn.svg);
+}
+.shape {
+  background-image: url(./assets/black-shape.png);
+}

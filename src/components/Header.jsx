@@ -87,8 +87,12 @@ const Header = () => {
       </div>
       <div className="col-span-9 p-7">
         <div className="flex gap-4 justify-end">
-          <button className="border border-red-600 w-[136px]">Sign In</button>
-          <button className="bg-red-600 w-[136px]">Sign Up</button>
+          <div className="btn btn-outline flex justify-center items-center">
+            <p className="m-2">Sign In</p>
+          </div>
+          <div className="btn btn-fill flex justify-center items-center">
+            <p className="m-2">Sign Up</p>
+          </div>
         </div>
         <div>
           <Hero />

@@ -59,9 +59,7 @@ const HeroSlider = () => {
 
             <div className="flex flex-col gap-4">
               <p>ENTER TO THE GAME</p>
-              <button className="w-[154px] bg-red-600 rounded-md text-white">
-                JOIN NOW
-              </button>
+              <button className="btn btn-fill text-white">JOIN NOW</button>
             </div>
           </div>
 

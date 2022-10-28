@@ -12,7 +12,7 @@ const Hero = () => {
                 <h1 className="text-6xl font-bold pt-5">PUBG MOBILE</h1>
               </div>
               <div className="pt-4 pr-10">
-                <button className="w-[150px] bg-red-600 ">Join Now</button>
+                <p className="btn btn-fill text-center">Join Now</p>
               </div>
             </div>
           </div>
