@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Rajadhani";
+  src: url("./assets/fonts/rajadhani/rajdhani.regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajadhani";
+  src: url("./assets/fonts/rajadhani/rajdhani.bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajadhani";
+  src: url("./assets/fonts/rajadhani/rajdhani.semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Font-2/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Font-2/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}

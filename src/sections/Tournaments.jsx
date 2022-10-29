@@ -1,6 +1,6 @@
 import React from "react";
 import triangle from "../assets/triangle.png";
-import Card from "../components/Card";
+import TournametCard from "../components/TournamentCard";
 
 const data = [
   {
@@ -16,12 +16,12 @@ const data = [
   },
 ];
 
-const LiveMatch = () => {
+const Tournaments = () => {
   return (
-    <div className="bg-[#000000] ">
+    <div className="">
       <div className="">
-        <h1 className="text-white text-center rectangle font-bold text-4xl">
-          Live Match
+        <h1 className="text-white text-center rectangle1  font-bold text-4xl">
+          Tournaments
         </h1>
       </div>
       <div className="flex justify-center">
@@ -30,11 +30,11 @@ const LiveMatch = () => {
 
       <div className="grid grid-cols-3 gap-5 justify-items-center px-32 py-20">
         {data.map((item, idx) => (
-          <Card key={idx} image={item.imageUrl} />
+          <TournametCard key={idx} image={item.imageUrl} />
         ))}
       </div>
     </div>
   );
 };
 
-export default LiveMatch;
+export default Tournaments;

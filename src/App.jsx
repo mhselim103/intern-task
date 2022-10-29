@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-[#13141f]">
+    <div className="bg-[#13141f] text-white font-rajadhani">
       <Home />
     </div>
   );

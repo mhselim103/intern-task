@@ -1,11 +1,5 @@
 import React from "react";
 import Hero from "../sections/Hero";
-/* https://i.ibb.co/bQQL41P/Group-26.png
-https://i.ibb.co/7WWGKLC/Group-27.png
-https://i.ibb.co/HPThG3b/Group-377.png
-https://i.ibb.co/618kSj4/Group-379.png
-https://i.ibb.co/QjK52QD/Group-512.png
-https://i.ibb.co/x6FVb7S/Icon-simple-messenger.png */
 const Header = () => {
   return (
     <div className="grid grid-cols-10 gap-4 text-white ">
@@ -88,10 +82,10 @@ const Header = () => {
       <div className="col-span-9 p-7">
         <div className="flex gap-4 justify-end">
           <div className="btn btn-outline flex justify-center items-center">
-            <p className="m-2">Sign In</p>
+            <p className="font-bold">Sign In</p>
           </div>
           <div className="btn btn-fill flex justify-center items-center">
-            <p className="m-2">Sign Up</p>
+            <p className="m-2 font-bold">Sign Up</p>
           </div>
         </div>
         <div>
