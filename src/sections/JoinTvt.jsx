@@ -16,11 +16,7 @@ const JoinTvt = () => {
         <JoinCard />
         <JoinCard />
         <JoinCard />
-        {/* <Accordian />
-        <Accordian />
-        <Accordian /> */}
       </div>
-      <div>{/* <Pagination /> */}</div>
     </div>
   );
 };

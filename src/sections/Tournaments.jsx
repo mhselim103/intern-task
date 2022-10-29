@@ -1,5 +1,7 @@
 import React from "react";
 import triangle from "../assets/triangle.png";
+import Pagination from "../components/Pagination";
+// import Pagination from "../components/Pagination";
 import TournametCard from "../components/TournamentCard";
 
 const data = [
@@ -32,6 +34,10 @@ const Tournaments = () => {
         {data.map((item, idx) => (
           <TournametCard key={idx} image={item.imageUrl} />
         ))}
+      </div>
+
+      <div className="flex justify-end pr-32">
+        <Pagination />
       </div>
     </div>
   );

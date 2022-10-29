@@ -27,7 +27,9 @@ const JoinCard = () => {
         </div>
 
         <div className="flex justify-end gap-3 items-center">
-          <p className="btn btn-fill text-center">Accept</p>
+          <div className="btn btn-fill flex justify-center items-center">
+            <p className="font-bold">Accept</p>
+          </div>
           <img
             onClick={() => setVisibility(!visibility)}
             className="cursor-pointer"

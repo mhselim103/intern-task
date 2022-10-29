@@ -34,15 +34,18 @@
   background-position: center;
   background-size: cover;
   object-fit: cover;
-  width: 104px;
-  height: auto;
+  width: 114px;
+  height: 33px;
   cursor: pointer;
 }
+.feature {
+  background-image: url(./assets/bottom-shape.png);
+}
 .btn-fill {
-  background-image: url(./assets/buttonbg.svg);
+  background-image: url(./assets/fill.png);
 }
 .btn-outline {
-  background-image: url(./assets/btn-outline.svg);
+  background-image: url(./assets/button-outline.png);
 }
 .shape {
   background-image: url(./assets/black-shape.png);

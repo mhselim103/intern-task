@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center px-8">
+    <div className="flex justify-between items-center px-32 py-4">
       <div>
         <p>@2022</p>
       </div>

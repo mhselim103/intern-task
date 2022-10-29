@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import featuedGame from "../assets/featured-game.png";
 import fifa from "../assets/fifa.png";
 import leftArrow from "../assets/leftArrow.png";
 import pes from "../assets/pes.jpg";
 import pubg from "../assets/PUBG_Mobile.png";
 import rightArrow from "../assets/rightArrow.png";
+import LazyLoad from "./LazyLoad";
 const HeroSlider = () => {
   const [slider, setSlider] = useState("fifa");
 
@@ -45,7 +47,9 @@ const HeroSlider = () => {
               alt=""
             />
           </div>
-
+          <div className="absolute top-0 left-0 feature btn w-[200px]">
+            <img src={featuedGame} alt="" />
+          </div>
           <div className="flex flex-col gap-12 absolute top-80 left-0 px-10 text-gray">
             <div>
               <h1
@@ -59,30 +63,32 @@ const HeroSlider = () => {
 
             <div className="flex flex-col gap-4">
               <p>ENTER TO THE GAME</p>
-              <button className="btn btn-fill text-white">JOIN NOW</button>
+              <div className="btn btn-fill flex justify-center items-center h-[33px]">
+                <p className=" font-bold">JOIN NOW</p>
+              </div>
             </div>
           </div>
 
           <div className="absolute top-52 right-0">
             <div className="flex flex-col gap-5">
-              <img
+              <div
                 className="w-36 cursor-pointer"
                 onClick={() => setSlider("fifa")}
-                src={fifa}
-                alt=""
-              />
-              <img
+              >
+                <LazyLoad url={fifa} />
+              </div>
+              <div
                 className="w-36 cursor-pointer"
-                onClick={() => setSlider("pes")}
-                src={pes}
-                alt=""
-              />
-              <img
+                onClick={() => setSlider("fifa")}
+              >
+                <LazyLoad url={pes} />
+              </div>
+              <div
                 className="w-36 cursor-pointer"
-                onClick={() => setSlider("pubg")}
-                src={pubg}
-                alt=""
-              />
+                onClick={() => setSlider("fifa")}
+              >
+                <LazyLoad url={pubg} />
+              </div>
             </div>
           </div>
         </div>
