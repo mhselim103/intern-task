@@ -39,7 +39,11 @@ const JoinCard = () => {
         </div>
       </div>
 
-      <div className={`max-h-20  ${visibility ? "block" : "hidden"}`}>
+      <div
+        className={`max-h-20 border-t-[0.2px] border-gray-500 ${
+          visibility ? "block" : "hidden"
+        }`}
+      >
         <div className=" grid grid-cols-2 px-14 py-2 max-w-6xl mx-auto">
           <div className="flex gap-5 justify-around items-center">
             <div className="bg-white w-11 h-11 rounded-full"></div>
