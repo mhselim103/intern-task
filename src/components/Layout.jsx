@@ -3,11 +3,13 @@ import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex">
+    <div className="">
       <div>
         <Header />
       </div>
-      <main className="pl-10">{children}</main>
+      <main className="pl-10">
+        <div>{children}</div>
+      </main>
     </div>
   );
 };
