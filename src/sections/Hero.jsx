@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
       <div>
         <div className="flex justify-center">
-          <div className='text-white w-[1054px] h-28  bg-[url("https://i.ibb.co/Zdhdv1B/banner.png")] object-cover bg-no-repeat my-10'>
+          <div className="text-white w-[1054px] h-28 banner object-cover bg-no-repeat my-10">
             <div className="flex justify-between px-5 items-center">
               <div className="">
                 <h1 className="text-6xl font-bold pt-5">PUBG MOBILE</h1>
