@@ -1,6 +1,7 @@
 import React from "react";
 import triangle from "../assets/triangle.png";
 import JoinCard from "../components/JoinCard";
+import Pagination from "../components/Pagination";
 const JoinTvt = () => {
   return (
     <div className="text-white bg-[#000000] ">
@@ -12,10 +13,13 @@ const JoinTvt = () => {
       <div className="flex justify-center">
         <img src={triangle} alt="" />
       </div>
-      <div className="py-20 flex flex-col gap-3">
+      <div className="pt-20 pb-8 flex flex-col gap-3">
         <JoinCard />
         <JoinCard />
         <JoinCard />
+      </div>
+      <div className="flex justify-end pr-32 pb-12">
+        <Pagination />
       </div>
     </div>
   );

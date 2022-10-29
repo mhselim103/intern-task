@@ -35,10 +35,10 @@ const Tournaments = () => {
           <TournametCard key={idx} image={item.imageUrl} />
         ))}
       </div>
-
+      {/* 
       <div className="flex justify-end pr-32">
         <Pagination />
-      </div>
+      </div> */}
     </div>
   );
 };

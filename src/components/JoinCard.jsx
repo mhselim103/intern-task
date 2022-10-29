@@ -4,7 +4,7 @@ import bottomArrow from "../assets/dropdown.png";
 const JoinCard = () => {
   const [visibility, setVisibility] = useState(false);
   return (
-    <div className="bg-[#363846] max-w-6xl mx-auto">
+    <div className="bg-[#363846] w-[1200px] mx-auto">
       <div className=" grid grid-cols-2 px-14 py-2 max-w-6xl mx-auto">
         <div className="flex gap-5 justify-around items-center">
           <div className="bg-white w-11 h-11 rounded-full"></div>

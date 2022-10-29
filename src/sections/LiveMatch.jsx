@@ -1,6 +1,7 @@
 import React from "react";
 import triangle from "../assets/triangle.png";
 import Card from "../components/Card";
+import Pagination from "../components/Pagination";
 
 const data = [
   {
@@ -28,10 +29,13 @@ const LiveMatch = () => {
         <img src={triangle} alt="" />
       </div>
 
-      <div className="grid grid-cols-3 gap-5 justify-items-center px-32 py-20">
+      <div className="grid grid-cols-3 gap-5 justify-items-center px-32 pt-20 pb-8">
         {data.map((item, idx) => (
           <Card key={idx} image={item.imageUrl} />
         ))}
+      </div>
+      <div className="flex justify-end pr-32 pb-12">
+        <Pagination />
       </div>
     </div>
   );
