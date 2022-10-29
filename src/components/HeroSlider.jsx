@@ -5,7 +5,6 @@ import leftArrow from "../assets/leftArrow.png";
 import pes from "../assets/pes.jpg";
 import pubg from "../assets/PUBG_Mobile.png";
 import rightArrow from "../assets/rightArrow.png";
-import LazyLoad from "./LazyLoad";
 const HeroSlider = () => {
   const [slider, setSlider] = useState("fifa");
 
@@ -71,23 +70,29 @@ const HeroSlider = () => {
 
           <div className="absolute top-52 right-0">
             <div className="flex flex-col gap-5">
-              <div
-                className="w-36 cursor-pointer"
-                onClick={() => setSlider("fifa")}
-              >
-                <LazyLoad url={fifa} />
+              <div>
+                <img
+                  src={fifa}
+                  className="w-36 cursor-pointer"
+                  onClick={() => setSlider("fifa")}
+                  url={fifa}
+                />
               </div>
-              <div
-                className="w-36 cursor-pointer"
-                onClick={() => setSlider("fifa")}
-              >
-                <LazyLoad url={pes} />
+              <div>
+                <img
+                  src={pes}
+                  className="w-36 cursor-pointer"
+                  onClick={() => setSlider("pes")}
+                  url={pes}
+                />
               </div>
-              <div
-                className="w-36 cursor-pointer"
-                onClick={() => setSlider("fifa")}
-              >
-                <LazyLoad url={pubg} />
+              <div>
+                <img
+                  src={pubg}
+                  className="w-36 cursor-pointer"
+                  onClick={() => setSlider("pubg")}
+                  url={pubg}
+                />
               </div>
             </div>
           </div>
